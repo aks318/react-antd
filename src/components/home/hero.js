@@ -24,7 +24,7 @@ const items = [
 function AppHero() {
   return (
     <div id="hero" className="heroBlock">
-      <Carousel>
+      <Carousel autoplay>
         {items.map(item => {
           return (
             <div key={item.key} className="container-fluid">

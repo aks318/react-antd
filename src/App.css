@@ -348,12 +348,13 @@ pricing block
   text-align: center;
 }
 
-/* .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+.pricingBlock .ant-row > div:hover:nth-child(n) .ant-list-item {
   box-shadow: 0 0 12px 2px #f3f3f3;
   transform: scale(1.1);
+  transition-duration: 0.6s;
   position: relative;
   z-index: 1;
-} */
+}
 
 .pricingBlock .ant-card-head-title {
   text-transform: uppercase;

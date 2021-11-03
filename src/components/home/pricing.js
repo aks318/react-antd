@@ -65,7 +65,9 @@ function AppPricing() {
           dataSource={data}
           renderItem={item => (
             <List.Item>
-              <Card title={item.title}>
+              <Card 
+              hoverable
+              title={item.title}>
                 <p className="large">{item.content[0].price}</p>
                 <p>{item.content[0].space}</p>
                 <p>{item.content[0].user}</p>
